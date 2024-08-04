@@ -1,26 +1,37 @@
-$mar: #11698C;
+$mar:  #41acd6;
 $nuvem: #FFFFFF;
-$rosa: #c55a95;
+$rosa: #5a83c5;
 
 
 body{
     background-color: $mar;
-    font-family: Verdana;
+    font-family: "Open Sans","Arial",  sans-serif;
     margin: 0px;
+    
+    
 }
 
-
+p {
+    padding-right: 100px;
+    
+}
 
 img {
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    border: 4px solid #ffffff;
     margin-top: 50px;
+    
 }
 
 h1 {
+    color: $nuvem;
+}
+
+h2 {
    color: $nuvem;
-   font-family: Georgia;
+   font-family: "Bitter", "Verdana", serif;
    padding-top: 10px;
 }
 
@@ -36,11 +47,11 @@ padding-bottom: 1px;
 
 footer{
     text-align: center;
-    background-color: #F2E8B6;
+    background-color: $nuvem;
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 12px;
+    font-size: 11px;
     padding: 10px 0;
     
     

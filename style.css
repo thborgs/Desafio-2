@@ -1,25 +1,28 @@
 body {
-  background-color: #11698C;
-  font-family: Verdana;
+  background-color: #41acd6;
+  font-family: "Open Sans", "Arial", sans-serif;
   margin: 0px;
+}
+
+p {
+  padding-right: 100px;
 }
 
 img {
   width: 200px;
   height: 200px;
   border-radius: 100px;
+  border: 4px solid #ffffff;
   margin-top: 50px;
 }
 
 h1 {
   color: #FFFFFF;
-  font-family: Georgia;
-  
 }
 
 h2 {
   color: #FFFFFF;
-  font-family: Georgia;
+  font-family: "Bitter", "Verdana", serif;
   padding-top: 10px;
 }
 
@@ -28,16 +31,16 @@ div {
 }
 
 div.lista {
-  background-color: #c55a95;
+  background-color: #5a83c5;
   padding-bottom: 1px;
 }
 
 footer {
   text-align: center;
-  background-color: #F2E8B6;
+  background-color: #FFFFFF;
   position: fixed;
   bottom: 0;
   width: 100%;
-  font-size: 12px;
+  font-size: 11px;
   padding: 10px 0;
 }/*# sourceMappingURL=style.css.map */
