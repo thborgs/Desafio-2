@@ -1,0 +1,48 @@
+$mar: #11698C;
+$nuvem: #FFFFFF;
+$rosa: #c55a95;
+
+
+body{
+    background-color: $mar;
+    font-family: Verdana;
+    margin: 0px;
+}
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 50px;
+}
+
+h1 {
+   color: $nuvem;
+   font-family: Georgia;
+   padding-top: 10px;
+}
+
+div {
+    padding-left: 100px;
+}
+
+div.lista {
+    background-color: $rosa;
+padding-bottom: 1px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #F2E8B6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0;
+    
+    
+}
+
