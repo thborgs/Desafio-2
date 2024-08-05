@@ -1,18 +1,22 @@
 $mar:  #41acd6;
 $nuvem: #FFFFFF;
-$rosa: #5a83c5;
+
+
+
 
 
 body{
     background-color: $mar;
     font-family: "Open Sans","Arial",  sans-serif;
-    margin: 0px;
+    margin: 0px; // Diminuo a margin pro quadro das listas ficarem coladas no canto da página //
+    margin-bottom: 100px; //Aumento a margin para que o footer não fique em cima do conteúdo em algumas resoluções //
+    
     
     
 }
 
 p {
-    padding-right: 100px;
+    padding-right: 100px; //Padding right no p pra que o texto não fique lá no canto//
     
 }
 
@@ -21,7 +25,7 @@ img {
     height: 200px;
     border-radius: 100px;
     border: 4px solid #ffffff;
-    margin-top: 50px;
+    margin-top: 50px; //Aumento a margin para que a imagem não fique colada no topo da página//
     
 }
 
@@ -36,12 +40,12 @@ h2 {
 }
 
 div {
-    padding-left: 100px;
+    padding-left: 100px; //Pro texto não ficar colado na margem esquerda. Não preciso por novamente no div.lista pq aqui já vai pra ele tbm//
 }
 
 div.lista {
-    background-color: $rosa;
-padding-bottom: 1px;
+    background-color: #5a83c5;
+    padding-bottom: 1px; //Pra caixa da lista ter um pouco de espaço//
     
 }
 
@@ -52,7 +56,7 @@ footer{
     bottom: 0;
     width: 100%;
     font-size: 11px;
-    padding: 10px 0;
+    padding: 1px 0;
     
     
 }
